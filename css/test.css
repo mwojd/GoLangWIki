@@ -5,3 +5,13 @@
     margin-bottom: 1%;
     margin-top: 1%;
 }
+.content {
+    /* //format the text so its always in the center, and if te text is too long make it into multiple lines  */
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    font-size: 90%;
+    
+    
+}

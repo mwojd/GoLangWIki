@@ -27,26 +27,27 @@ body, head {
     background-color: rgba(0,0,0,0.25);
     border-radius: 50px;
 }
-.container button {
+a {
     all:unset;
+}
+button, .btn {
+    all:unset;
+    display: block;
     cursor: pointer;
     border: solid 1px rgb(35,35,35);
     height: 12.5%;
     width: 55%;
-    text-align: center;
     font-size: 25px;
     border-radius: 10px;
     margin: 4%;
     transition: transform 0.15s ease-in-out;
-    overflow: hidden;
-    cursor: default;
-}.container button:hover {
+    overflow: hidden;  
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}.container button:hover, .btn:hover {
     background-color: rgba(0,0,0,0.2655);
     transform: scale(1.25);
-}
-.container button a {
-    cursor: pointer;
-}
-a {
-    all:unset;
 }
