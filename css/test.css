@@ -1,0 +1,7 @@
+#generate {
+    cursor: pointer;
+}
+#generate,#backButton {
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
